@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/pposongdb?allowMultiQueries=true
+    username: root
+    password: test
+  devtools:
+    restart:
+      enabled: true
